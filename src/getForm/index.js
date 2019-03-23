@@ -17,7 +17,7 @@ const formHTML = `<!DOCTYPE html>
 </html>`;
 exports.handler = async message => {
   console.log(message);
-
+  console.log("New Log Message!");
   return {
     statusCode: 200,
     headers: {'Content-Type': 'text/html'},
